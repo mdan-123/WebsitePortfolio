@@ -1,0 +1,8 @@
+html, body, div, span, header, div, h1, h2, h3, h4, h5, h6, caption, table, tr, th, form, hr, fieldset, legend, image, article, footer, section, figure, main,  p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font: normal;
+}

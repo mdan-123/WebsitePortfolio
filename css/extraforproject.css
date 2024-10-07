@@ -1,0 +1,18 @@
+
+
+section div p a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+section div p a:hover{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+}

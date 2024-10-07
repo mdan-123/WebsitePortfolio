@@ -1,0 +1,116 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto auto 1fr;    
+    max-height: 100vh;
+    grid-gap: 5em;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    grid-row: 1;
+    grid-column: 1 / -1;
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+form{
+    grid-row: 2;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+
+  
+}
+
+fieldset{
+    background-color: silver;
+    border: 1pt solid black;
+    padding: 1%;
+    width: 25%;
+    height: auto;
+    margin-bottom: 0.25%;
+}
+
+
+legend{
+    background-color:rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 0.15%;
+    font-size: 3rem;
+}
+
+
+label{
+    color: black;
+    font-size: 2rem;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+textarea{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+
+.big-button {
+    background-color: black;
+    color: white;
+    padding: 3%; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+
+.big-button:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type=submit]
+{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    
+
+}
+
+
+
+.highlight{
+    background-color: lightslategray;
+    color: black;
+
+}
+
